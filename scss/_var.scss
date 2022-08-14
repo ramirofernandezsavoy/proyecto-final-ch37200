@@ -10,11 +10,9 @@ $paleta: (
 );
 
 // Fonts ================================================================
-// Fuentes aun a designar.
 
 @mixin font1 ($size, $weight, $family){
     font-size: $size; 
     font-weight: $weight;
-    font-family: $family;
-    
+    font-family: $family;    
 }
