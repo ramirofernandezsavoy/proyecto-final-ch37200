@@ -1,0 +1,139 @@
+.mainWrapper {    
+  background-repeat: no-repeat;
+  background-attachment: fixed;  
+  background-blend-mode: overlay;
+}
+
+.mainWrapper1 {
+  @extend .mainWrapper;
+  background-image: url(../img/bgA.png);
+  background-position: right;
+  background-color: rgba(240, 248, 255, 0.623);
+}
+
+.mainWrapper2 {
+  @extend .mainWrapper;
+  background-image: url(../img/bgB.png);
+  background-position: left;
+  background-color: rgba(240, 248, 255, 0.87);  
+}
+
+.sec1 {
+  padding: 90px 0;
+}
+
+.sec2 {
+  background-color: map-get($map: $paleta, $key: secBg);
+  height: 460px;
+  padding: 20px 0;
+}
+
+.sec2div {
+  display: flex;
+}
+
+.sec3,
+.sec4 {
+  padding: 50px 0;
+}
+
+.sec1 {
+  p {
+    font-size: 16px;
+  }
+
+  h3 {
+    @include font1 (42px, 600, Helvetica);
+  }
+
+  h2 {
+    @include font1 (20px, 600, Helvetica);
+  }
+}
+
+.vTxt {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+
+.vImg img {
+  border-radius: 10px;
+}
+
+.imgInd {
+  width: 100%;
+}
+
+.infoText {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  width: 450px;
+  margin: auto;
+
+  h4 {
+    padding: 10px 0;
+    color: map-get($map: $paleta, $key: txtW);
+    @include font1 (32px, 700, Helvetica);
+  }
+
+  p {
+    padding: 20px 0;
+    color: map-get($map: $paleta, $key: txtW);
+    @include font1 (16px, 400, Helvetica);
+  }
+}
+
+.btn2 {
+  width: 150px;
+}
+
+.infoBox {
+  display: flex;
+  justify-content: space-between;
+  margin: 20px 0;
+  border-radius: 20px;
+  width: 400px;
+
+  i {
+    font-size: 48px;
+    margin: 40px auto;
+  }
+
+  div {
+    width: 300px;
+  }
+}
+
+.big {
+  font-size: 36px;
+  font-weight: 600;
+  color: map-get($map: $paleta, $key: txtW);
+}
+
+.mid {
+  font-size: 24px;
+  font-weight: 400;
+  color: map-get($map: $paleta, $key: txtW);
+}
+
+.small {
+  font-size: 16px;
+  font-weight: 300;
+  color: map-get($map: $paleta, $key: txtW);
+}
+
+.sec3 h3 {
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+
+.textblock {
+  display: flex;
+
+  i {
+    font-size: 26px;
+    margin-right: 5px;
+  }
+}

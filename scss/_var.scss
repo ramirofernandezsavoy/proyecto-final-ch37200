@@ -1,0 +1,20 @@
+// Color Palette =========================================================
+$paleta: (
+    "txtW": white,
+    "txtB": black,
+    "txtHl": #d9534f,
+    "solidHl": #f0ad4e,
+    "solidHlHover": #8b6b2b,
+    "secBg": black,
+    "secBgA": rgba(0, 0, 0, 0.342),
+);
+
+// Fonts ================================================================
+// Fuentes aun a designar.
+
+@mixin font1 ($size, $weight, $family){
+    font-size: $size; 
+    font-weight: $weight;
+    font-family: $family;
+    
+}

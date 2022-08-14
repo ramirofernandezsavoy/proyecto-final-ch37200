@@ -1,0 +1,27 @@
+.navbar {
+    height: 50px;
+  }
+  
+  .contactBar {
+    height: 30px;
+    margin: 0;
+  
+    div {
+      display: flex;
+      justify-content: center;
+      text-align: center;
+  
+      i {
+        font-size: 26px;
+        margin: 0 5px 0 0;
+      }
+  
+      p {
+        font-weight: 600;
+      }
+    }
+  }
+  
+  .logoimg {
+    width: 60px;
+  }

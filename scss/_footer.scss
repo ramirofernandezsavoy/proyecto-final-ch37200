@@ -1,0 +1,54 @@
+footer {
+    height: 200px;
+    background-color: map-get($map: $paleta, $key: secBg);;
+    padding: 30px;
+  }
+  
+  .footerText {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+  }
+  
+  .footerText2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+  
+    h4 {
+      font-family: "Amatic SC", cursive;
+      font-weight: 700;
+      font-size: 42px;
+      text-transform: uppercase;
+      margin: 0;
+    }
+  
+    p {
+      color: map-get($map: $paleta, $key: txtW);
+      font-size: 12px;
+    }
+  }
+  
+  .footerText a {
+    text-decoration: none;
+    color: map-get($map: $paleta, $key: txtW);
+  }
+  
+  .footerContact {
+    display: flex;
+    flex-direction: column;
+  
+    div {
+      display: flex;
+  
+      i {
+        font-size: 26px;
+        margin: 0 5px;
+      }
+  
+      p {
+        font-weight: 500;
+        color: map-get($map: $paleta, $key: txtW);
+      }
+    }
+  }

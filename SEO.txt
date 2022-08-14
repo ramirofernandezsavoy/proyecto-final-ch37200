@@ -1,0 +1,35 @@
+Seo - Cambios
+
+INDEX 
+==============================================================================================================================================================
+*Titulo*: Ximax Seguridad - Consultora en higiene, seguridad y medio ambiente.
+*Descripcion*: Consultora en higiene y seguridad basada en zona oeste, Buenos Aires, Argentina. Ofrecemos servicios a industrias y comercios, nuevos o preexistentes
+*Tags*: ximax, higiene, seguridad, consultora, industria, comercios, ambiente, habilitacion, incendio, ergonomia, capacitacion, epp
+
+
+INDUSTRIA
+==============================================================================================================================================================
+*Titulo*: Servicios para Industrias
+*Descripcion*: Ximax Seguridad ofrece un servicio de asesoria para industrias que incluye un pack de estudios a realizar y visitas periodicas
+*Tags*: ximax, higiene, seguridad, consultora, industria, ambiente, incendio, ergonomia, capacitacion, epp, seguimiento, art, srt
+
+
+MEDIO AMBIENTE
+==============================================================================================================================================================
+*Titulo*: Prevencion y Medio Ambiente
+*Descripcion*: Ximax Seguridad ofrece un plan de auditoria ambiental que incluye asesoria, evaluacion, impacto y estudios para la preservacion del medio ambiente
+*Tags*: ximax, higiene, seguridad, consultora, medio ambiente, capacitacion, residuos especiales, OPDS, INA, ACUMAR
+
+
+HABILITACIONES
+==============================================================================================================================================================
+*Titulo*: Habilitaciones municipales
+*Descripcion*: Ximax Seguridad ofrece la asesoria durante el proceso de habilitacion ya sea de comercios o industrias en municipios de zona oeste
+*Tags*: ximax, consultora, industria, comercios, ambiente, habilitacion, municipio, obra, categorizacion
+
+
+CONTACTO
+==============================================================================================================================================================
+*Titulo*: Ximax Seguridad - Contacto
+*Descripcion*: Consultora en higiene y seguridad basada en zona oeste, contactanos
+*Tags*: ximax, higiene, seguridad, consultora, industria, comercios, ambiente, habilitacion, incendio, ergonomia, capacitacion, epp, contacto

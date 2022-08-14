@@ -1,0 +1,370 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
+
+.navbar {
+  height: 50px; }
+
+.contactBar {
+  height: 30px;
+  margin: 0; }
+  .contactBar div {
+    display: flex;
+    justify-content: center;
+    text-align: center; }
+    .contactBar div i {
+      font-size: 26px;
+      margin: 0 5px 0 0; }
+    .contactBar div p {
+      font-weight: 600; }
+
+.logoimg {
+  width: 60px; }
+
+header {
+  width: auto;
+  height: 90vh;
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center; }
+
+.bgi-i {
+  background-image: url(https://images.pexels.com/photos/3158651/pexels-photo-3158651.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940); }
+
+.bgi-h {
+  background-image: url(https://images.pexels.com/photos/8468119/pexels-photo-8468119.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1); }
+
+.bgi-in {
+  background-image: url(https://images.pexels.com/photos/1108101/pexels-photo-1108101.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1); }
+
+.bgi-m {
+  background-image: url(https://images.pexels.com/photos/162568/oil-pump-jack-sunset-clouds-silhouette-162568.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1); }
+
+.bgi-c {
+  background-image: url(https://images.pexels.com/photos/4195332/pexels-photo-4195332.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1); }
+
+header div {
+  border: 3px white solid;
+  padding: 20px;
+  background-color: rgba(0, 0, 0, 0.342); }
+
+header h1 {
+  font-size: 64px;
+  font-weight: 800;
+  font-family: Helvetica;
+  color: white;
+  text-align: center; }
+
+header h2 {
+  font-size: 56px;
+  font-weight: 800;
+  font-family: Helvetica;
+  color: white;
+  text-align: center; }
+
+header p {
+  color: white;
+  font-size: 18px;
+  text-align: center; }
+
+.mainWrapper, .mainWrapper1, .mainWrapper2 {
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-blend-mode: overlay; }
+
+.mainWrapper1 {
+  background-image: url(../img/bgA.png);
+  background-position: right;
+  background-color: rgba(240, 248, 255, 0.623); }
+
+.mainWrapper2 {
+  background-image: url(../img/bgB.png);
+  background-position: left;
+  background-color: rgba(240, 248, 255, 0.87); }
+
+.sec1 {
+  padding: 90px 0; }
+
+.sec2 {
+  background-color: black;
+  height: 460px;
+  padding: 20px 0; }
+
+.sec2div {
+  display: flex; }
+
+.sec3,
+.sec4 {
+  padding: 50px 0; }
+
+.sec1 p {
+  font-size: 16px; }
+
+.sec1 h3 {
+  font-size: 42px;
+  font-weight: 600;
+  font-family: Helvetica; }
+
+.sec1 h2 {
+  font-size: 20px;
+  font-weight: 600;
+  font-family: Helvetica; }
+
+.vTxt {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly; }
+
+.vImg img {
+  border-radius: 10px; }
+
+.imgInd {
+  width: 100%; }
+
+.infoText {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  width: 450px;
+  margin: auto; }
+  .infoText h4 {
+    padding: 10px 0;
+    color: white;
+    font-size: 32px;
+    font-weight: 700;
+    font-family: Helvetica; }
+  .infoText p {
+    padding: 20px 0;
+    color: white;
+    font-size: 16px;
+    font-weight: 400;
+    font-family: Helvetica; }
+
+.btn2 {
+  width: 150px; }
+
+.infoBox {
+  display: flex;
+  justify-content: space-between;
+  margin: 20px 0;
+  border-radius: 20px;
+  width: 400px; }
+  .infoBox i {
+    font-size: 48px;
+    margin: 40px auto; }
+  .infoBox div {
+    width: 300px; }
+
+.big {
+  font-size: 36px;
+  font-weight: 600;
+  color: white; }
+
+.mid {
+  font-size: 24px;
+  font-weight: 400;
+  color: white; }
+
+.small {
+  font-size: 16px;
+  font-weight: 300;
+  color: white; }
+
+.sec3 h3 {
+  font-weight: 700;
+  margin-bottom: 20px; }
+
+.textblock {
+  display: flex; }
+  .textblock i {
+    font-size: 26px;
+    margin-right: 5px; }
+
+footer {
+  height: 200px;
+  background-color: black;
+  padding: 30px; }
+
+.footerText {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around; }
+
+.footerText2 {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around; }
+  .footerText2 h4 {
+    font-family: "Amatic SC", cursive;
+    font-weight: 700;
+    font-size: 42px;
+    text-transform: uppercase;
+    margin: 0; }
+  .footerText2 p {
+    color: white;
+    font-size: 12px; }
+
+.footerText a {
+  text-decoration: none;
+  color: white; }
+
+.footerContact {
+  display: flex;
+  flex-direction: column; }
+  .footerContact div {
+    display: flex; }
+    .footerContact div i {
+      font-size: 26px;
+      margin: 0 5px; }
+    .footerContact div p {
+      font-weight: 500;
+      color: white; }
+
+nav a:hover {
+  transition: 1.5s;
+  background-color: #8b6b2b;
+  border-radius: 5px; }
+
+.btn:hover {
+  transform: scale(120%);
+  box-shadow: 11px 10px 33px -2px rgba(0, 0, 0, 0.75);
+  -webkit-box-shadow: 11px 10px 33px -2px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 11px 10px 33px -2px rgba(0, 0, 0, 0.75);
+  transition: 1.5s ease; }
+
+footer a {
+  position: relative;
+  padding: 2px 0; }
+  footer a::after {
+    content: "";
+    background-color: #f0ad4e;
+    position: absolute;
+    left: 0;
+    height: 2px;
+    bottom: -3px;
+    width: 0%; }
+  footer a:hover::after {
+    width: 125px;
+    transition: 3s; }
+
+@media screen and (max-width: 1023px) {
+  .footerText h5 {
+    font-size: 16px; }
+  .footerText a {
+    font-size: 12px; }
+  .footerContact {
+    max-width: 100%; }
+    .footerContact p, .footerContact a {
+      font-size: 12px;
+      font-weight: 500; } }
+
+@media screen and (max-width: 992px) {
+  .nd992 {
+    display: none; }
+  .sec2div {
+    flex-direction: column;
+    align-items: center; }
+  .infoText {
+    margin-bottom: 50px; }
+  .sec2 {
+    height: auto; }
+  .infoBox i {
+    margin: auto;
+    font-size: 76px; } }
+
+@media screen and (max-width: 768px) {
+  .nd768 {
+    display: none; } }
+
+@media screen and (max-width: 576px) {
+  .infoText {
+    width: auto; }
+  .navbar {
+    display: flex;
+    height: 60px;
+    align-items: flex-start; }
+  footer {
+    height: auto;
+    padding: 5px; }
+  .footerText2 {
+    align-items: center; }
+    .footerText2 p:nth-child(3) {
+      margin-top: -15px; }
+  .footerText {
+    flex-direction: row;
+    justify-content: space-around; }
+  .footerText2 h4 {
+    font-size: 28px; }
+  .footerText2 p {
+    font-size: 8px; }
+  .footerText h5 {
+    font-size: 14px; }
+  .footerText p, .footerText a {
+    font-size: 10px; }
+  .footerText div i {
+    font-size: 18px; }
+  .contactBar div {
+    justify-content: left;
+    margin: -5px; }
+    .contactBar div i {
+      font-size: 20px; }
+    .contactBar div p {
+      font-size: 12px; }
+  header div h1 {
+    font-size: 42px; }
+  .vImg {
+    width: 400px;
+    margin: auto; }
+    .vImg h3 {
+      font-size: 24px; }
+    .vImg h2 {
+      font-size: 16px; }
+    .vImg p {
+      font-size: 12px; }
+  .infoText h4 {
+    font-size: 26px; }
+  .infoText p {
+    font-size: 14px; }
+  .infoBox i {
+    font-size: 42px; }
+  .big {
+    font-size: 28px; }
+  .mid {
+    font-size: 20px; }
+  .small {
+    font-size: 12px;
+    width: 80%; }
+  .infocard {
+    flex-direction: row !important;
+    margin: 0; }
+    .infocard p {
+      font-size: 12px; }
+  .form {
+    padding: 0 30px;
+    margin: 0; } }
+
+@media screen and (max-width: 420px) {
+  .infoBox {
+    justify-content: center;
+    width: 100%; }
+    .infoBox i {
+      display: none; }
+    .infoBox div {
+      padding-left: 10px; }
+  .contactBar div i {
+    font-size: 16px; }
+  .contactBar div p {
+    font-size: 10px; }
+  .headerHab {
+    padding: 5px; } }
+
+@media screen and (max-width: 340px) {
+  .contactBar {
+    text-align: center; }
+    .contactBar div i {
+      font-size: 12px; }
+    .contactBar div p {
+      font-size: 8px; } }
